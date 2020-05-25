@@ -13,7 +13,7 @@ section#title .container-fluid {
 
 section#title h1{
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
@@ -25,7 +25,7 @@ section#title .navbar {
 
 section#title .navbar .navbar-brand {
   font-family: "Ubunto";
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -46,7 +46,69 @@ section#title .download-btn {
 
 /* Image */
 section#title .header-image {
-  width: 70%;
+  width: 60%;
   transform: rotate(25deg);
 }
+
+/* Features section */
+
+section#features {
+  padding: 7% 15%;
+}
+
+section#features .feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+section#features .icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+section#features .icon:hover {
+  color: #FF4C68;
+}
+
+section#features h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+section#features p {
+  color: #8F8F8F;
+}
+
+/* testimonials section */
+
+section#testimonials {
+  background-color: #EF8172;
+  color: #FFF;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+section#testimonials h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+section#testimonials img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press section */
+
+section#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+section#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
