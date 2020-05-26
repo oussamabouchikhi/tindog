@@ -115,3 +115,18 @@ section#press img {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing section */
+section#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+section#pricing .plan {
+  padding: 3% 2%;
+}
+
+section#pricing h2 {
+  font-weight: 900;
+  font-size: 2rem;
+}
