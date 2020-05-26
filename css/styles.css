@@ -160,3 +160,14 @@ section#cta h3 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
+
+/* Footer section */
+footer#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+footer#footer .social-icon {
+  margin: 20px 10px;
+}
