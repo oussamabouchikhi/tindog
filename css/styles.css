@@ -8,7 +8,7 @@ section#title {
 }
 
 section#title .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 section#title h1{
@@ -48,12 +48,27 @@ section#title .download-btn {
 section#title .header-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+@media (max-width: 1028px) {
+  section#title {
+    text-align: center;
+
+  }
+  section#title .header-image {
+    transform: rotate(0);
+    position: static;
+  }
 }
 
 /* Features section */
 
 section#features {
+  background-color: #FFF;
   padding: 7% 15%;
+  position: relative;
 }
 
 section#features .feature-box {
