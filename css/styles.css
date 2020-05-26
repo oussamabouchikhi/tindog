@@ -84,14 +84,17 @@ section#features p {
 section#testimonials {
   background-color: #EF8172;
   color: #FFF;
-  padding: 7% 15%;
   text-align: center;
+}
+
+section#testimonials .carousel-inner {
+  padding: 7% 15%;
 }
 
 section#testimonials h2 {
   font-family: "Montserrat";
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 section#testimonials img {
