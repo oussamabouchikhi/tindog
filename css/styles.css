@@ -145,3 +145,18 @@ section#pricing h2 {
   font-weight: 900;
   font-size: 2rem;
 }
+
+/* CTA section */
+section#cta {
+  padding: 7% 15%;
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+}
+
+section#cta h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
