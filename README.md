@@ -1,11 +1,11 @@
-# tindog
+# tindog-website
 Tinder clone website for dogs.
 
 ## Tools & Languages
 - HTML5
 - Css3
-- Bootstrap
-- Fonawesome
+- Bootstrap4
+- Fontawesome
 
 ## Screenshots
 <img width="100%" src="screenshots/web.png">
